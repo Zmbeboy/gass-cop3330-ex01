@@ -10,9 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        Scanner scanny = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("What is your name? ");
-        String name = scanny.nextLine();
+        String name = scan.nextLine();
         String output = "Hello, "+name+", nice to meet you";
         System.out.println(output);
     }
